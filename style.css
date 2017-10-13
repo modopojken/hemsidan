@@ -18,6 +18,13 @@ margin: 40px auto;
     margin-left:100px;
     margin-right:200px; 
  }
+ h3{
+
+    font-family: 'Playfair Display', serif;
+    margin-left:100px;
+    margin-right:200px; 
+
+ }
 
 #topimgid{
 
@@ -34,17 +41,36 @@ background-color:#ee00ee;
 }
 
 
-h1, h2, h3 {
+h1{
 
 font-family: 'Playfair Display', serif;
 display: inline-flex;
 margin-left:100px;
 }
+h2{
 
+    font-family: 'Playfair Display', serif;
+    display: inline-flex;
+    margin-left:100px;
+    color: green;
+
+
+
+
+}h3{
+
+    float:right;
+    margin-right:200px;
+}
+.test{
+
+    float:right;
+    margin-right:100px;
+}
 
 a{
 font-family: 'Playfair Display', serif;
-	border: 6px dotted green;
+	
 }
 
 .bottomimg{
