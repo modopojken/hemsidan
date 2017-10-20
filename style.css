@@ -1,11 +1,13 @@
 body {
 	font-size: 16px;
 	font-family: 'Playfair Display', serif;
+    background-image: url("Bilder/cleanred.jpg");
 	}
 
 main {
 	margin: 0 auto;
-	width: 80%;
+	width: 100%;
+    background-image: url("Bilder/cleanred.jpg");
 }
 .topimg {
 float:left;
@@ -34,10 +36,19 @@ margin: 40px auto;
 
 }
 
-a:hover {
+li{
 
-background-color:#ee00ee;
+    color:orange;
+    margin-right: 1390px;
 
+
+}ul{
+    color:orange;
+
+
+}nav{
+
+    color:orange;
 }
 
 
@@ -52,7 +63,7 @@ h2{
     font-family: 'Playfair Display', serif;
     display: inline-flex;
     margin-left:100px;
-    color: green;
+    color: orange;
 
 
 
@@ -70,14 +81,21 @@ h2{
 
 a{
 font-family: 'Playfair Display', serif;
+color: orange;
+
 	
+}
+a:hover{
+    background-color: green;
+    border: dotted blue;
+    color: red;
 }
 
 .bottomimg{
 
 	float:right;
 	padding: 40px;
-	border:5px solid green;
+	border:5px solid orange;
 }
 
 iframe{
